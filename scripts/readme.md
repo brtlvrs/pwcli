@@ -15,4 +15,4 @@ The only thing you need to do is to copy the script out of a temporary docker co
 |3|copy files<br>```docker cp test:/2installonhost/pwsh /usr/local/bin```
 |4|make it executable<br>```chmod +x /usr/local/bin/pwsh```
 |5|remove docker container<br>```docker rm test```
-|6|Tag image to be used in script<br>```docker image tag brtlvrs/pwcli:v0.1 pwcli:latest```
+|6|Tag image to be used in script<br>```docker image tag brtlvrs/pwcli:v0.1 pwcli:latest```|this is done so we can use the same pwsh script as when using the install.sh script in the gitrepository

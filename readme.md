@@ -13,6 +13,8 @@
 pwcli is short for powerCLI. It is a docker image based on microsoft/powershell pre-loaded with VMWare PowerCLI, PowerVRA and PowerNSX.
 The install.sh script runs docker build and copies the pwsh script from the scripts folder into /usr/local/bin
 
+The base image is the powercli image from VMware.
+
 ## Usage
 
 When installed you can call powershell by ```pwsh```.
