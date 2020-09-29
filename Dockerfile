@@ -1,6 +1,6 @@
 FROM microsoft/powershell
   
-LABEL authors="brtlvrs"
+MAINTAINER "brtlvrs"
 
 # trust PSGallery (so we can install modules)
 RUN pwsh -c "\$ProgressPreference=SilentlyContinue; set-PSRepository -NAme PSGallery -InstallationPolicy trusted"
