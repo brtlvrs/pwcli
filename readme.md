@@ -1,6 +1,6 @@
 # pwcli
 
-|version| 0.1 | [MIT license](LICENSE)|Copyright (c) 2020 Bart Lievers|[blog](https://vblog.bartlievers.nl)|[github](https://github.com/brtlvrs/)|[dockerhub](https://hub.docker.com/r/brtlvrs/)|
+|version| 12.2 | [MIT license](LICENSE)|Copyright (c) 2020 Bart Lievers|[blog](https://vblog.bartlievers.nl)|[github](https://github.com/brtlvrs/)|[dockerhub](https://hub.docker.com/r/brtlvrs/)|
 |---|---|---|---|---|---|---|
 
 ## Repositories
@@ -11,7 +11,8 @@
 ## Summary
 
 pwcli is short for powerCLI. It is a docker image based on microsoft/powershell pre-loaded with VMWare PowerCLI, PowerVRA and PowerNSX.
-The install.sh script runs docker build and copies the pwsh script from the scripts folder into /usr/local/bin
+With pwcli you can run powershellCore in a container.<br> 
+The deploy script will create a script wrapper that will run the container interactivly.
 
 The base image is the powercli image from VMware.
 
