@@ -13,7 +13,7 @@ This is the deployment script for deploying the pwcli container in docker.
 To run the deployment run
 
 ``` #!\bin\bash
-curl -s https://raw.githubusercontent.com/brtlvrs/pwcli/v0.2-alpha/deploy/deploy.sh | bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/brtlvrs/pwcli/v12.2/deploy/deploy.sh)"
 ```
 
 Of course you could use wget instead of curl.<br>
