@@ -1,8 +1,12 @@
 # pwcli
 
-|version| 12.2 | [MIT license](LICENSE)|Copyright (c) 2020 Bart Lievers|[blog](https://vblog.bartlievers.nl)|[github](https://github.com/brtlvrs/)|[dockerhub](https://hub.docker.com/r/brtlvrs/)|
+|version| 12.7| [MIT license](LICENSE)|Copyright (c) 2022 Bart Lievers|[blog](https://vblog.bartlievers.nl)|[github](https://github.com/brtlvrs/)|[dockerhub](https://hub.docker.com/r/brtlvrs/)|
 |---|---|---|---|---|---|---|
 
+## bye bye auto build dockerhub
+
+Dockerhub has changed it subscriptions. And there is no longer a free one which runs builds automaticly.
+For the build proces I use concourse, which uses this git as a resource, and pushes the image to dockerhub.
 ## Repositories
 
 - pre build docker image on [dockerhub](https://hub.docker.com/r/brtlvrs/pwcli)
@@ -14,7 +18,7 @@ pwcli is short for powerCLI. It is a docker image based on microsoft/powershell 
 With pwcli you can run powershellCore in a container.<br> 
 The deploy script will create a script wrapper that will run the container interactivly.
 
-The base image is the powercli image from VMware.
+The base image is the powercli image from VMware. (vmware/powerCLIcore)
 
 ## Usage
 
