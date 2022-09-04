@@ -2,7 +2,7 @@ FROM vmware/powerclicore
   
 MAINTAINER "brtlvrs"
 #--
-RUN tdnf update -y
+#RUN tdnf update -y
 RUN tdnf install openssh
 RUN tdnf clean all
 #-- Configure PowerCLI and clear powershell history
