@@ -3,7 +3,7 @@ FROM vmware/powerclicore
 MAINTAINER "brtlvrs"
 #--
 #RUN tdnf update -y
-RUN tdnf install openssh
+RUN tdnf install openssh -y
 RUN tdnf clean all
 #-- Configure PowerCLI and clear powershell history
 RUN pwsh -c "Set-PowerCLIConfiguration -ParticipateInCeip:\$false -DefaultVIServerMode Single -InvalidCertificateAction Ignore -scope AllUsers -confirm:\$false"
