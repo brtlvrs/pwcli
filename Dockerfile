@@ -1,5 +1,4 @@
-FROM mcr.microsoft.com/powershell:lts-ubuntu-20.04
-
+FROM mcr.microsoft.com/powershell:7.3-ubuntu-22.04
 LABEL authors="renoufa@vmware.com,jaker@vmware.com,dmilov@vmware.com,nklinkachev@vmware.com"
 
 # Set PowerShell Gallery Repository
