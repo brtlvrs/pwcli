@@ -1,16 +1,8 @@
+
 # pwcli
 
-|version| 12.7 | [MIT license](LICENSE)|Copyright (c) 2020 Bart Lievers|[blog](https://vblog.bartlievers.nl)|[github](https://github.com/brtlvrs/)|[dockerhub](https://hub.docker.com/r/brtlvrs/)|
-|---|---|---|---|---|---|---|
-
-## bye bye auto build dockerhub
-
-Dockerhub has changed it subscriptions. And there is no longer a free one which runs builds automaticly.
-For the build proces I use concourse, which uses this git as a resource, and pushes the image to dockerhub.
-## Repositories
-
-- pre build docker image on [dockerhub](https://hub.docker.com/r/brtlvrs/pwcli)
-- dockerfile at [github](https://github.com/brtlvrs/pwcli)
+|pwsh <pwsh_version> | pwcli <pwcli_version> | OS <OS> | [MIT license](LICENSE)|Copyright (c) 2023 Bart Lievers|[blog](https://vblog.bartlievers.nl)|[github](https://github.com/brtlvrs/)|[dockerhub](https://hub.docker.com/r/brtlvrs/)|
+|---|---|---|---|---|---|---|---|
 
 ## Summary
 
