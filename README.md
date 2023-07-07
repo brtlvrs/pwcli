@@ -1,7 +1,7 @@
 
 # pwcli
 
-|pwsh  7.3.4 | pwcli  13.1 | OS  Ubuntu 22.04.2 LTS | [MIT license](LICENSE)|Copyright (c) 2023 Bart Lievers|[blog](https://vblog.bartlievers.nl)|[github](https://github.com/brtlvrs/)|[dockerhub](https://hub.docker.com/r/brtlvrs/)|
+|pwsh  7.3.5 | pwcli  13.1 | OS  Ubuntu 22.04.2 LTS | [MIT license](LICENSE)|Copyright (c) 2023 Bart Lievers|[blog](https://vblog.bartlievers.nl)|[github](https://github.com/brtlvrs/)|[dockerhub](https://hub.docker.com/r/brtlvrs/)|
 |---|---|---|---|---|---|---|---|
 
 ## Summary
