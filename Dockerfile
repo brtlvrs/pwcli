@@ -54,7 +54,7 @@ RUN apt-get update && \
 RUN pip3 install six psutil lxml pyopenssl && \
     pwsh -c "Set-PowerCLIConfiguration -PythonPath /usr/local/bin/python3 -Scope AllUsers -Confirm:\$false"
 
-RUN apt-get install -y --no-install-recommends vim 
+RUN apt-get install -y vim 
 RUN pwsh -c "Set-PowerCLIConfiguration -ParticipateInCeip:\$false -DefaultVIServerMode Single -InvalidCertificateAction Ignore -scope AllUsers -confirm:\$false" && \
     pwsh -c "clear-history"
 #-- create workingdir, this is the path that the wrapper script mounts ${pwd} to
